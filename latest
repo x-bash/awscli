@@ -12,7 +12,7 @@ ___x_cmd___awscli_origin(){
     fi
 
     ___x_cmd___awscli_origin(){
-        awscli "$@"
+        command aws "$@"
     }
 
     ___x_cmd___awscli_origin "$@"
