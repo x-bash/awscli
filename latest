@@ -6,7 +6,7 @@ ___x_cmd_awscli(){
 }
 
 ___x_cmd___awscli_origin(){
-    if ! x pip install awscli; then
+    if ! x pipx install awscli; then
         x:error "Pip Installation failure."
         return 1
     fi
